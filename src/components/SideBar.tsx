@@ -1,4 +1,4 @@
-import React, {useState, Dispatch, SetStateAction} from "react";
+import React, { useState, Dispatch, SetStateAction } from "react";
 import {
   Box,
   List,
@@ -7,19 +7,23 @@ import {
   ListItemIcon,
   ListItemText,
   Switch,
-  PaletteMode
+  PaletteMode,
 } from "@mui/material";
 import HomeIcon from "@mui/icons-material/Home";
 import ModeNightIcon from "@mui/icons-material/ModeNight";
 
 interface SideBarIProps {
-  mode: string
-  setMode: Dispatch<SetStateAction<PaletteMode>>,
+  mode: string;
+  setMode: Dispatch<SetStateAction<PaletteMode>>;
 }
-const SideBar: React.FC<SideBarIProps> = ({mode,setMode}) => {
+const SideBar: React.FC<SideBarIProps> = ({ mode, setMode }) => {
   return (
-    <Box flex={1} p={2} sx={{ display: { xs: "none", sm: "block" }, marginRight: {sm: 5} }}>
-      <Box sx={{position: "fixed"}}>
+    <Box
+      flex={1}
+      p={2}
+      sx={{ display: { xs: "none", sm: "block" }, marginRight: { sm: 5 } }}
+    >
+      <Box sx={{ position: "fixed" }}>
         <List>
           <ListItem disablePadding>
             <ListItemButton component={"a"} href="#home">
@@ -89,7 +93,9 @@ const SideBar: React.FC<SideBarIProps> = ({mode,setMode}) => {
               <Switch
                 value="checkedA"
                 inputProps={{ "aria-label": "Switch A" }}
-                onChange={() => mode === 'light'? setMode('dark') : setMode('light')}
+                onChange={() =>
+                  mode === "light" ? setMode("dark") : setMode("light")
+                }
               />
             </ListItemButton>
           </ListItem>

@@ -47,10 +47,10 @@ export const NavBar = () => {
   return (
     <AppBar position="sticky">
       <StyledToolbar>
-        <Typography variant="h5" sx={{ display: { sm: "none", md: "block" } }}>
-          Material UI Template
+        <Typography variant="h5" sx={{ display: { xs: "none", sm: "none", md: "block" } }}>
+          Nav
         </Typography>
-        <Pets sx={{ display: { sm: "block", md: "none" } }} />
+        <Pets sx={{ display: { xs: "block", sm: "block", md: "none" } }} />
         <Search>
           <InputBase placeholder="search..." />
         </Search>

@@ -58,13 +58,12 @@ const Add = () => {
         aria-describedby="modal-modal-description"
       >
         <Box
-          width={400}
           height={280}
           bgcolor={"background.default"}
           color={"text.primary"}
           p={3}
           borderRadius={5}
-          sx={{width: { xs: "90%", md: "100%" }}}
+          sx={{width: { xs: "90%", md: "400px", lg: "400px" }}}
         >
           <Typography variant="h6" color="gray" textAlign="center">
             Create Post

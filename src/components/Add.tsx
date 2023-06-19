@@ -64,6 +64,7 @@ const Add = () => {
           color={"text.primary"}
           p={3}
           borderRadius={5}
+          sx={{width: { xs: "90%", md: "100%" }}}
         >
           <Typography variant="h6" color="gray" textAlign="center">
             Create Post

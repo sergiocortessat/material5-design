@@ -23,8 +23,8 @@ const SideBar: React.FC<SideBarIProps> = ({ mode, setMode }) => {
       p={2}
       sx={{ display: { xs: "none", sm: "block" }, marginRight: { sm: 5 } }}
     >
-      <Box>
-        <List sx={{ position: "fixed" }}>
+      <Box sx={{ position: "fixed" }}>
+        <List>
           <ListItem disablePadding>
             <ListItemButton component={"a"} href="#home">
               <ListItemIcon>

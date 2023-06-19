@@ -16,7 +16,7 @@ import { rightSideImageData } from "../service/postsData";
 export const RightBar = () => {
   return (
     <Box flex={2} p={2} sx={{ display: { xs: "none", sm: "block" } }}>
-      <Box position="fixed" width={380} height={"90vh"} sx={{overflowY: "auto", overflowX: "hidden"}}>
+      <Box height={"90vh"} sx={{position: { xs: "block" ,sm: "block", md: 'fixed' },width: {sm: "270px", md: "370px"} ,overflowY: "auto", overflowX: "hidden"}}>
         <Typography variant="h6" fontWeight={100}>
           Online Friends
         </Typography>

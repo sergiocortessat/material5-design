@@ -16,6 +16,7 @@
 
 ![React](https://img.shields.io/badge/React-3776AB?style=for-the-badge&logo=react&logoColor=white) <br/>
 ![MaterialUI5](https://img.shields.io/badge/MaterialUI-092E20?style=for-the-badge&logo=material&logoColor=white) <br/>
+![TypeScript](https://img.shields.io/badge/TypeScript-092E20?style=for-the-badge&logo=typescript&logoColor=white) <br/>
 ![Webpack](https://img.shields.io/badge/Webpack-092E20?style=for-the-badge&logo=webpack&logoColor=white) <br/>
 
 
@@ -24,7 +25,7 @@
 
 ### Built With
 
-* [REACT] [MATERIALUI5] [WEBPACK] [BABEL] [API]
+* [REACT] [MATERIALUI] [WEBPACK] [TYPESCRIPT]
 
 ## Live Version
 
@@ -36,10 +37,15 @@ This MaterialUI5 template can be used by anyone who wishes to start working on a
 
 ## Screenshot Test
 
+## Desktop
 <p align="center">
   <img height="auto" src="Screenshot2.png">
 </p>
 
+## Mobile
+<p align="center">
+  <img height="auto" src="Screenshot3.png">
+</p>
 
 
 ## Contributing
@@ -57,17 +63,17 @@ Terminal or similar to execute the program.
 ## Clone project
 
 - To get a local copy up and running follow these simple example steps.
-- Clone this repository with git clone ```https://github.com/sergiocortessat/scs-weather-app``` using your terminal or command line.
-- Change to the project directory by entering: ```cd scs-weather-app``` in the terminal.
+- Clone this repository with git clone ```https://github.com/sergiocortessat/material5-design``` using your terminal or command line.
+- Change to the project directory by entering: ```cd material5-design``` in the terminal.
 - Enter the project folder and set the repo with its correspondent using npm install.
 - After this run the command npx run start
 - If the project cant be build, please run npx webpack.
 
 ## Command line steps
 ```
-- $ git clone `$ git clone https://github.com/sergiocortessat/scs-weather-app
+- $ git clone `$ git clone https://github.com/sergiocortessat/material5-design
 - $ git checkout develop
-- $ cd scs-weather-app
+- $ cd material5-design
 - $npm i
 - $ npm start
 - ##(If project doesn't build, please run): $ npx webpack
@@ -85,6 +91,7 @@ Terminal or similar to execute the program.
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
+LamaDev (https://www.youtube.com/@LamaDev)
 
 ## 📝 License
 

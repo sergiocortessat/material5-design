@@ -48,7 +48,7 @@ export const NavBar = () => {
     <AppBar position="sticky">
       <StyledToolbar>
         <Typography variant="h5" sx={{ display: { sm: "none", md: "block" } }}>
-          NavBar
+          Material UI Template
         </Typography>
         <Pets sx={{ display: { sm: "block", md: "none" } }} />
         <Search>

@@ -1,46 +1,93 @@
-# Getting Started with Create React App
+# Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+  <br />
 
-## Available Scripts
+* [About the Project](#about-the-project)
+* [Built With](#built-with)
+* [Contributing](#contributing)
+* [Contact](#authors)
+* [Acknowledgements](#acknowledgements) 
+* [Getting Started](#getting-started) 
+* [Live Demo and Video](#live-version) 
 
-In the project directory, you can run:
+#
+<br />
 
-### `npm start`
+![React](https://img.shields.io/badge/React-3776AB?style=for-the-badge&logo=react&logoColor=white) <br/>
+![MaterialUI5](https://img.shields.io/badge/MaterialUI-092E20?style=for-the-badge&logo=material&logoColor=white) <br/>
+![Webpack](https://img.shields.io/badge/Webpack-092E20?style=for-the-badge&logo=webpack&logoColor=white) <br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+<br />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Built With
 
-### `npm run build`
+* [REACT] [MATERIALUI5] [WEBPACK] [BABEL] [API]
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Live Version
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* [Live Demo](https://material5-design.vercel.app/) 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- ABOUT THE PROJECT   -->
+## About The Project
+This MaterialUI5 template can be used by anyone who wishes to start working on a personal blog. It is build with React 18 and Material UI 5. As well is it a mobile first template using PWA. Hence it can be installed on a mobile device.
 
-### `npm run eject`
+## Screenshot Test
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<p align="center">
+  <img height="auto" src="Screenshot2.png">
+</p>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Contributing
 
-## Learn More
+Contributions make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Prerequisites
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Terminal or similar to execute the program.
+
+
+## Getting Started
+
+
+## Clone project
+
+- To get a local copy up and running follow these simple example steps.
+- Clone this repository with git clone ```https://github.com/sergiocortessat/scs-weather-app``` using your terminal or command line.
+- Change to the project directory by entering: ```cd scs-weather-app``` in the terminal.
+- Enter the project folder and set the repo with its correspondent using npm install.
+- After this run the command npx run start
+- If the project cant be build, please run npx webpack.
+
+## Command line steps
+```
+- $ git clone `$ git clone https://github.com/sergiocortessat/scs-weather-app
+- $ git checkout develop
+- $ cd scs-weather-app
+- $npm i
+- $ npm start
+- ##(If project doesn't build, please run): $ npx webpack
+```
+
+## Authors
+
+👤 Sergio Cortes Satizabal
+
+- Github: [@sergiocortessat](https://github.com/sergiocortessat)
+- Twitter: [@sergiocortessat](https://twitter.com/sergiocortessat)
+- LinkedIn: [@sergiocortessat](https://www.linkedin.com/in/sergio-cortes-satizabal-3b452194/)
+
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+
+
+## 📝 License
+
+This project is [MIT](https://github.com/sergiocortessat/sergiocortessat/blob/main/LICENSE) licensed.
+
+

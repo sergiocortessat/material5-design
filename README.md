@@ -33,7 +33,7 @@
 
 <!-- ABOUT THE PROJECT   -->
 ## About The Project
-This MaterialUI5 template can be used by anyone who wishes to start working on a personal blog. It is build with React 18 and Material UI 5. As well is it a mobile first template using PWA. Hence it can be installed on a mobile device.
+This MaterialUI5 template can be used by anyone who wishes to start working on a personal blog. It is build with React 18, TypeScript and Material UI 5. As well is it a mobile first template using PWA. Hence it can be installed on a mobile device.
 
 ## Screenshot Test
 
